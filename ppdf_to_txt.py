@@ -1,3 +1,10 @@
+#import required modules
+import re
+from pathlib import Path 
+import glob
+import pdfplumber
+import os
+
 #Funcion to convert pdf to txt
 def extract_pdf_to_txt(input_folder, output_folder, debug=False):
     
